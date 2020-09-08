@@ -1,0 +1,180 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.header{
+    background: lightgray;
+    position: fixed;
+	top: 0;
+    width: 100%;
+    padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu{
+    text-decoration: none;
+    color: #000000;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header_menu ul li a{
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}
+
+.header_menu ul li a:hover {
+	color: #FFF;
+}
+
+/* Introducao */
+
+.introducao{
+    background: #000000;
+    width: 100%;
+    height: 200px;
+    margin-top: 83px;
+}
+
+.titulo_introducao{
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    margin: 50px 40px 30px 40px;
+}
+
+.frase_introducao{
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Sobre */
+
+.titulo_sobre{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin: 50px;
+}
+
+.titulo_sobre:after{
+    content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000000;
+	margin: 14px auto 10px auto;
+}
+
+.frase_sobre{
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+/* Sobre 2 */
+
+.container-sobre{
+    padding-bottom: 40px;
+}
+
+.frase_sobre-2{
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.frase_sobre-2:before{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 40px auto;
+}
+
+.sobre_lista{
+    margin: 20px 0px;
+}
+
+.sobre_lista .grid-8:first-child{
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+
+.sobre_btn{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background: #ffffff;
+}
+
+.sobre_btn .btn{
+    background: none;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.sobre_btn .btn a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Finalização */
+
+.finalizacao{
+    background: url("../img/Group\ 1.png") no-repeat center;
+    width: 100%;
+	height: 250px;
+	background-size: cover;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.finalizacao h2{
+    font-size: 36px;
+    color: #ffffff;
+    margin: 70px 40px 30px 0px;
+}
+
+.finalizacao p{
+    color: #ffffff;
+}
+
+/* Footer */
+
+.footer{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background: lightgray;
+}
+
+.footer ul{
+    margin-left: 30px;
+}
+
+/* Copyright */
+
+.copy{
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
